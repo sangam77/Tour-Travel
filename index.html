@@ -1,0 +1,302 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Creative Inc.</title>
+<link href="css/styles.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: inline-block;
+}
+ul.fill  li a {
+  transition: all 2s;
+}
+
+ul.fill li a:after {
+  text-align: left;
+  content: '.';
+  margin: 0;
+  opacity: 0;
+}
+ul.fill li a:hover {
+  color: #fff;
+  z-index: 1;
+}
+ul.fill li a:hover:after {
+  z-index: -10;
+  animation: fill 1s forwards;
+  -webkit-animation: fill 1s forwards;
+  -moz-animation: fill 1s forwards;
+  opacity: 1;
+}
+
+ul.fill  li a:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: '.';
+  color: transparent;
+  background: #aaa;
+  height: 1px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 24px 53px;
+  text-decoration: none;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+ul.fill li a {
+  position: relative;
+}
+
+li a:hover {
+  background-color: hotpink;
+}
+</style> <style type="text/css">
+  	#xyz{
+  		height: 100px;
+  		width: 125px;
+  		margin: 0px;
+  		padding: 0px;
+  		display: inline-block;
+  	}
+  </style>
+</head>
+
+<body>
+
+<header>
+<nav class="navbar navbar-expand-lg  ">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Tours <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">About</a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link " href="#">gallery</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link " href="#"><img src='img/travel2.png'></a>
+
+        <a class="nav-link" href="#">Tour and travels</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link " href="#">Private Tours</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link " href="#">FAQ</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link " href="#">Contact</a>
+      </li>
+    </ul>
+    
+  </div>
+</nav>
+	
+
+
+
+</header>
+
+<section class="home-hero parallax--bg">
+	<div class="container">
+
+		<h1 class="title parallax--box"><br><br>Making things looks great <span>for companies who make great stuff</span>
+		</h1>
+		<a href="" class="button button-accent">See Our Work</a>
+	</div>
+</section>
+
+<div class="container">
+	<section class="home-about">
+
+		<div class="home-about-textbox parallax--box">
+			<h1>Who we are</h1>
+			<p>Sit by the fire drink water out of the faucet hide head under blanket so no one can see cat is love, cat is life. Knock dish off table eating always hungry so favor packaging over toy. </p>
+			<p><strong>Rub face on owner.</strong> Peer out window, chatter at birds, lure them to mouth. Chase ball of string eat a plant, kill a hand, i am the best have secret plans.</p>
+		</div>
+
+	</section>
+</div>
+
+
+<section id="facilities">
+	<div class="container">
+		<div class="title">
+			<h1 class="text-center">Enjoy the Spirit</h1>
+		</div>
+		<div class="text">
+        Travel in the comfort with an experience team providing you top service and grand hotels, transport and dining.
+    </div>
+    <div class="row">
+    	<div class="col-sm-3">
+    		<div class="card text-center">
+    			<img src="img/portfolio-06.jpg" class="card-img-top">
+    			<div class="card-body">
+    				<h5 class="card-title">Flight</h5>
+    				<p class="card-text">Fly to mekomos hakedoshim with no worries. Lalechet finds and coordinates the best airfare deals and ensures every part of your travel runs smoothly. Have an extraordinarily easy, hassle-free journey!</p>
+    			</div>
+    		</div>
+    	</div>
+    	<div class="col-sm-3">
+    		<div class="card text-center">
+    			<img src="img/portfolio-01.jpg" class="card-img-top">
+    			<div class="card-body">
+    				<h5 class="card-title">Lodgings</h5>
+    				<p class="card-text">The Lalechet provides the beautiful, spacious hotels where you will refresh and recharge. All along the journey, through multiple cities and towns, you’ll enjoy comfortable of the close to the kevorim .</p>
+    			</div>
+    		</div>
+    	</div>
+    	<div class="col-sm-3">
+    		<div class="card text-center">
+    			<img src="img/portfolio-09.jpg" class="card-img-top">
+    			<div class="card-body">
+    				<h5 class="card-title">Transit</h5>
+    				<p class="card-text">Comfortable buses, cars and vans as you travel through Eastern Europe. We provide perfectly coordinated transportation, run like clockwork so you can arrive to each town and kever with energy and spirit.</p>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+    <div class="row">
+    	<div class="col-sm-3">
+    		<div class="card text-center">
+    			<img src="img/portfolio-07.jpg" class="card-img-top">
+    			<div class="card-body">
+    				<h5 class="card-title">Meals</h5>
+    				<p class="card-text">Lalechet has private kitchens where outstanding chefs cook fresh, delicious and heimish meals with a Badatz hechsher from the Antverpen Beis Din every day. We serve gourmet cuisine every day, in every city and town along your trip.</p>
+    			</div>
+    		</div>
+    	</div>
+    	<div class="col-sm-3">
+    		<div class="card text-center">
+    			<img src="img/portfolio-10.jpg" class="card-img-top">
+    			<div class="card-body">
+    				<h5 class="card-title">Tours Guides</h5>
+    				<p class="card-text">Our fascinating tour guides will transport you to the past. Explore the magnificent shuls in Krakow. Witness the silent stories of the Warsaw Ghetto. You’ll be mesmerized and immersed in the depths of Jewish history and life in Europe.</p>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+	</div>
+	
+</section>
+
+<section class="home-hero2 parallax--bg">
+	<div class="container-fluid">
+		<h1 class="title parallax--box">Private &amp; <br>VIP Tours</h1>
+		<a href="private-tours.html" class="button button-accent">Learn More</a>
+	</div>
+</section>
+
+<!-- Background image -->
+<div
+  class="bg-image d-flex justify-content-center align-items-center"
+  style="
+    background-image: url('img/garden.jpg');
+    height: 100vh;
+  "
+><div class="container">
+  <h1 class="text-white">Inside</h1>
+  <h1 class="text-white">The Tours</h1>
+  <div>
+       <p class="text-white">Lalechet isn’t just about tours. It’s about passion, it’s about exhilarating moments, it’s about opening a window to the power of the great Rebbes of the past, and a wellspring of yeshous and brachos.</p>
+       <p class="text-white">&nbsp;</p>
+      </div>
+      <a href="about.html"><a href="" class="button button-dark text-white">About Lalechet</a></a>
+</div>
+</div>
+
+<!-- Background image -->
+
+
+<section class="cta">
+	<div class="container">
+		<h1 class="title title-cta">Like what you see?
+			 <span>Then what are you waiting for?</span>
+		</h1>
+		<a href="" class="button button-dark">Hire us</a>
+	</div>
+</section>
+
+
+
+
+<footer>
+	<div class="container">
+  <div class="row">
+    <div class="col-sm-3">
+     <a href="index-2.html"><img width="145" height="65" src="img/travel1.jpg"/></a> 
+     <p>Lalechet</p>
+     <p>Tours &amp; Travel</p>
+    </div>
+    <div class="col-sm-2">
+    <p >Tours</p>
+         <p ><a href="lizensk.html">Lizensk</a></p>
+         <p ><a href="sanz.html">Sanz</a></p>
+         <p ><a href="kerestir.html">Kerestir</a></p>
+         <p ><a href="summer.html">Summer</a></p>  
+
+    </div>
+    <div class="col-sm-2">
+         <p>Private Tours</p>
+         <p><a href="vip-tours.html">VIP Tour</a></p>
+         <p><a href="private-groups.html">Private Groups</a></p>
+         <p><a href="family-tours.html">Family Tours</a></p>
+
+    </div>
+    <div class="col-sm-2">
+      <p>Company</p>
+         <p><a href="about.html">About Lalechet</a></p>
+         <p><a href="gallery.html">Gallery</a></p>
+         <p><a href="faq.html">FAQ</a></p>
+         <p><a href="contact.html">Contact</a></p>
+    </div>
+    <div class="col-sm-1">
+      <a  href="https://www.instagram.com/lalechettours?r=nametag"><img width="49" height="49"  src="img/insta.jpg"/></a>
+    </div>
+    <div class="col-sm-2">
+    	<p>Meals produced in our private kitchen are under the certification of:</p>
+    	<img width="157" height="123" src="img/logo1.png"/>
+      <a href="http://capitalc.co/"><p><span>Website by</span> Capital C</p></a>
+    </div>
+  </div>
+</div>
+</footer>
+
+
+<script
+  src="https://code.jquery.com/jquery-2.2.4.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  crossorigin="anonymous"></script>
+
+		<script src="js/parallax.js"></script>
+</body>
+</html>
